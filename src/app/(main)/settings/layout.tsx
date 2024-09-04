@@ -11,7 +11,7 @@ export default function ({ children }) {
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Settings | ' + (process.env.APP_NAME || 'Umami'),
-    default: 'Settings | ' + (process.env.APP_NAME || 'Umami'),
+    template: '%s | Settings | ' + (process.env.appName || 'Umami'),
+    default: 'Settings | ' + (process.env.appName || 'Umami'),
   },
 };
