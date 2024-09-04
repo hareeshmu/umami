@@ -1,8 +1,8 @@
 services:
   umami:
-    # image: ghcr.io/umami-software/umami:postgresql-latest
-    image: umami_dev:v1.0
-    build: .
+    image: hareeshmu/analytics-umami:latest
+    # image: umami_dev:v1.0
+    # build: .
     ports:
       - "3002:3000"
     environment:

@@ -12,7 +12,10 @@ export default function ({ children }) {
   return (
     <App>
       <main className={styles.layout}>
-        <nav className={styles.nav}>
+        <nav
+          className={styles.nav}
+          style={{ display: process.env.SHOW_NAVBAR !== 'false' ? 'block' : 'none' }}
+        >
           <NavBar />
         </nav>
         <section className={styles.body}>
@@ -25,7 +28,7 @@ export default function ({ children }) {
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Umami',
-    default: 'Umami',
+    template: '%s | ' + (process.env.APP_NAME || 'Umami'),
+    default: process.env.APP_NAME || 'Umami',
   },
 };
