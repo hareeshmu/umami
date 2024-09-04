@@ -7,6 +7,7 @@ const basePath = process.env.BASE_PATH;
 const collectApiEndpoint = process.env.COLLECT_API_ENDPOINT;
 const cloudMode = process.env.CLOUD_MODE;
 const cloudUrl = process.env.CLOUD_URL;
+const appName = process.env.APP_NAME;
 const defaultLocale = process.env.DEFAULT_LOCALE;
 const disableLogin = process.env.DISABLE_LOGIN;
 const disableUI = process.env.DISABLE_UI;
@@ -114,6 +115,7 @@ const config = {
     basePath,
     cloudMode,
     cloudUrl,
+    appName,
     configUrl: '/config',
     currentVersion: pkg.version,
     defaultLocale,

@@ -1,8 +1,8 @@
-<p align="center">
+<!-- <p align="center">
   <img src="https://umami.is/images/umami-logo.png" alt="Umami Logo" width="100">
-</p>
+</p> -->
 
-<h1 align="center">Umami</h1>
+<h1 align="center">Website Tracking and Analytics (umami custom)</h1>
 
 <p align="center">
   <i>Umami is a simple, fast, privacy-focused alternative to Google Analytics.</i>
